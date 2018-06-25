@@ -1,0 +1,27 @@
+% 语文日积月累
+
+%% UTF-8
+
+\documentclass[UTF8,a6paper,openany]{ctexbook}
+\usepackage{color}%文字加颜色
+\usepackage[colorlinks,linkcolor=blue,anchorcolor=red,citecolor=green]{hyperref}%超链接
+\usepackage{xpinyin}
+
+\title{语文日积月累\\v1.00}
+\author{{\kaishu 捷德} 整理}
+\date{\today}
+
+\hypersetup{
+	pdftitle={语文日积月累 },
+	pdfauthor={捷德 整理}
+}
+
+\CTEXsetup[name={第,章}, number=\arabic{chapter}]{chapter}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\include{chapter0}
+	\include{chapter1}
+	\include{chapter2}
+\end{document}
